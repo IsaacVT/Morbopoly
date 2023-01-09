@@ -38,8 +38,6 @@ input {
     background: white;
     border-radius: 25px;
 
-    resize: none;
-
     width: 35%;
     min-height: 40px;
     
@@ -104,4 +102,25 @@ footer {
 
 a {
     color: white;
+}
+
+textarea {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 0.9em;
+    line-height: 150%;
+
+    resize: none;
+
+    background-color: #221f1f;
+    color: white;
+    border: none;
+
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+textarea:focus {
+    outline: none;
 }
